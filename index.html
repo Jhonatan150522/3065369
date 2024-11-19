@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<h1>Formulario</h1>
+</head>
+
+<body>
+<!--Nombre-->
+  <div>
+    <Form action="Index.Html">
+      <label for="name">Nombre</label>
+      <input type="text" placeholder="Nombre" >
+    </div>
+    <!--Apellido-->
+    <div>
+      <label for="Apellido ">Apellido</label>
+      <input type="text" placeholder="Apellido">
+    </div>
+    <!--Edad-->
+    <div>
+      <label for="Edad">Edad</label>
+      <input type="number" id="Edad" step="1" max="100" min="0"  placeholder="Edad">
+    </div>
+    <!--color-->
+    <div>
+      <label for="Color">Color</label>
+      <input type="color">
+    </div>
+    <!--Numeros-->
+    <div>
+      <label for="Numeros">Numeros</label>
+      <input type="text" step="1" max="100" min="0">
+    </div>
+    <!--Numeros postivos-->
+    <div>
+      <label for="Positivos">Positivos</label>
+      <input type="Numero " min="0" required>
+    </div>
+    <!--Numeros Negativos y Positivos-->
+    <div>
+      <label for="Maximo-Minimo">Maximo-Minimo</label>
+      <input type="number"  value="15" step="05" max="20" min="10" required       >
+    </div>
+    <div>
+      <label for="Fevha de Nacimiento">Fecha de Nacimiento</label>
+      <input type="date">
+    </div>
+    <div>
+      <label for="Hora">Hora</label>
+      <input type="time" >
+    </div>
+    <div>
+      <label for="Ciudad">Ciudad</label>
+      <select name="Ciudad" id="Ciudad">
+        <option value="select">Seleccione</option>
+        <option>Bucaramanga</option>
+        <option value="Piedecuesta">Piedecuesta</option>
+      </select>
+      <div>
+        <label for="Genero">Genero</label>
+        <select name="Genero" id="Genero">
+        <option value="Seleccione">Seleccione</option>
+        <option value="1">Femenino</option>
+        <option value="2">Masculino</option>
+        </select>
+      </div>
+    </div>
+    <label for="Materia">Materia</label>
+      <select name="Seleccione" id="Seleccione">
+      <option value="Seleccione">Seleccione</option>
+      <option value="1">HTML</option>
+      <option value="2">CSS</option>
+      <option value="3">JS</option>
+      <option value="4">JAVA</option>
+      <option value="5">PYTHON</option>
+      <option value="6">PHP</option></select>
+    </div>
+    <div>
+      <label for="Archivo">Archivo</label>
+      <input type="file" accept=".jpg" accept=".png">
+    </div>
+    <div>
+      <label for="Contraseña">Contraseña</label>
+      <input type="password" placeholder="Proteccion">
+    </div>
+    <div>
+      <label for="Aprendiz">Aprendiz- Jhonatan David Leherici</label>
+    </div>
+    <button>Enviar</button>
+
+</body>
+</html>
